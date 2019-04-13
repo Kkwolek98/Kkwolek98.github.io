@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+.container {
+    display: inline-block;
+    width: 100%;
+}
+.topnav {
+    background-color: #111;
+    overflow: hidden;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.topnav li {
+    display: inline;
+}
+.topnav a {
+    display: inline-block;   
+    color: #CCC;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.topnav a:hover {
+    color: #FFF;
+    transition: 0.5s color;
+}
+.bg_blossom {
+    height: 93%;
+    background-image: url(bgs/bg3.jpg);
+    transition-duration: 0.5s;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.bg_stars {
+    height: 50%;
+    background-image: url(bgs/star3.jpg);
+    transition-duration: 1s;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.content {
+    background-color: #4c4c4c;
+    width: 100%;
+    height: auto;
+    float: right;
+    color: whitesmoke;
+    font-weight: 600;
+    box-shadow: 0px 0px 12px black;
+    padding-bottom: 20px;
+}
+#about {
+}
+#photos {
+    height: auto;
+    background-color: #1c1c1c;
+    box-shadow: 0px 0px 0px;
+    text-align: center;
+}
+.gallery {
+    margin-top: 2%;
+}
+.gallery > img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    box-shadow: 0px 0px 45px black;
+    margin: 0 5% 5% 5%;
+    border-radius: 2%;
+}
+#tools {
+    text-align: center;
+}
+#tools img {
+    filter: grayscale(70%);
+    transition: 0.7s;
+    object-fit: cover;
+    height: 280px;
+    width: auto;
+    margin: 2% 5% 5% 5%;
+}
+#tools img:hover {
+    filter: grayscale(0%);
+    transition: 0.2s;
+}
+.content > h1 {
+    text-align: center;
+    font-size: 38px;
+    margin: 10px;
+}
+.content > h1 > a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.content > p {
+    color: white;
+    font-weight: 300;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.content > p > img {
+    float: left;
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px black;
+    padding: 3px;
+    margin: 8px;
+    background-color: #003489;
+}
