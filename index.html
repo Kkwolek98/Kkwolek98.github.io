@@ -9,7 +9,7 @@
 <body onload="Timer()">
    
     <ul class="topnav" id="top">
-        <li><a href="#top">Top</a></li>
+        <li><a href="#">Top</a></li>
         <li><a href="#about">About me</a></li>
         <li><a href="#photos">Photos</a></li>
         <li><a href="#tools">Tools</a></li>
@@ -26,10 +26,11 @@
         <div class="content" id="photos">
             <h1><a href="#photos">Photos</a></h1>
                 <div class="gallery">
-                    <img data-aos="fade-right" src="imgs/g1/p1.JPG">
-                    <img data-aos="fade-down" src="imgs/g1/p2.JPG">
-                    <img data-aos="fade-up" src="imgs/g1/p3.JPG">
+                    <img data-aos="fade-right" src="imgs/g1/p1.JPG"/>
+                    <img src="imgs/g1/p2.JPG">
+                    <img data-aos="fade-left" src="imgs/g1/p3.JPG"/>
                 </div>
+                <h2><a href="gallery.html">Go to full gallery</a></h2>
             </div>
 
     </div
@@ -43,6 +44,19 @@
                 <img src="imgs/ps_icon.png">
             </div>
         </div>
+    </div>
+    <div class="container">
+        <div class="content"  id="contact">
+            <h1>Contact me</h1>
+            <form action="https://formspree.io/krzysztof.kwolek98@gmail.com" method="POST">
+                <input type="email" name="_replyto" placeholder="Your e-mail">
+                <textarea name="name" placeholder="Let's talk!"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+     <p>2019 Made by Krzysztof Kwolek.</p>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
